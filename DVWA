@@ -1,0 +1,13 @@
+-------kali-------
+
+第一步 開啟kali cmd 輸入docker image ls
+第二步 docker run --rm -it -p 80:80 vulnerables/web-dvwa
+第三步 瀏覽器搜尋 127.0.0.1 
+第四步 輸入帳號admin 密碼password
+第五步 Creat/Reset Database
+第六步 SQL INJECTION
+第七步 DVWA Security 選擇難度 (MEDIUM)
+第八步 command INJECTION
+第九步 輸入IP
+
+
