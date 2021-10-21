@@ -7,11 +7,11 @@
 
 | record|意義| 說明|
 |-------| ------| -------|
-| SOA|Start of Authority ||
+| SOA|Start of Authority |是一類的資源記錄在域名系統包含有關區行政信息。|  
 |A記錄|主機記錄IP addresses|RFC 1035定義，A記錄是用於名稱解析的重要記錄，它將特定的主機名對映到對應主機的IP位址上。|
 |CNAME記錄|別名記錄domain name aliases RFC 1035定義，CNAME記錄用於將某個別名指向到某個A記錄上，這樣就不需要再為某個新名字另外建立一條新的A記錄。|可以將網址「ww w.example.com」對應至「e xample.com」網域的實際網站。|
 |AAAA記錄|IPv6主機記錄|RFC 3596定義，與A記錄對應，用於將特定的主機名對映到一個主機的IPv6位址。|
-|MX |SMTP mail exchangers||
+|MX |SMTP mail exchangers|郵件交換記錄 (MX record)是域名系統（DNS）中的一種資源記錄類型，用於指定負責處理發往收件人域名的郵件伺服器。|  
 |SRV記錄|服務位置記錄 |RFC 2782定義，用於定義提供特定服務的伺服器的位置，如主機（hostname），埠（port number）等。|
 |NS記錄|域名伺服器記錄name servers|用來指定該域名由哪個DNS伺服器來進行解析。 您註冊域名時，總有預設的DNS伺服器，每個註冊的域名都是由一個DNS域名伺服器來進行解析的，DNS伺服器NS記錄位址一般以以下的形式出現： ns1.domain.com、ns2.domain.com等。 簡單的說，NS記錄是指定由哪個DNS伺服器解析你的域名。|
 |PTR|pointers for reverse DNS lookups||
