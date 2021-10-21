@@ -9,7 +9,7 @@
 |-------| ------| -------|
 | SOA|Start of Authority ||
 |A記錄|主機記錄IP addresses|RFC 1035定義，A記錄是用於名稱解析的重要記錄，它將特定的主機名對映到對應主機的IP位址上。|
-|CNAME記錄|別名記錄domain name aliases RFC 1035定義，CNAME記錄用於將某個別名指向到某個A記錄上，這樣就不需要再為某個新名字另外建立一條新的A記錄。|
+|CNAME記錄|別名記錄domain name aliases RFC 1035定義，CNAME記錄用於將某個別名指向到某個A記錄上，這樣就不需要再為某個新名字另外建立一條新的A記錄。|可以將網址「www.example.com」對應至「example.com」網域的實際網站。|
 |AAAA記錄|IPv6主機記錄|RFC 3596定義，與A記錄對應，用於將特定的主機名對映到一個主機的IPv6位址。|
 |MX |SMTP mail exchangers||
 |SRV記錄|服務位置記錄 |RFC 2782定義，用於定義提供特定服務的伺服器的位置，如主機（hostname），埠（port number）等。|
