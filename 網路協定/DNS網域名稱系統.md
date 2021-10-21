@@ -15,5 +15,5 @@
 |SRV記錄|服務位置記錄 |RFC 2782定義，用於定義提供特定服務的伺服器的位置，如主機（hostname），埠（port number）等。|
 |NS記錄|域名伺服器記錄name servers|用來指定該域名由哪個DNS伺服器來進行解析。 您註冊域名時，總有預設的DNS伺服器，每個註冊的域名都是由一個DNS域名伺服器來進行解析的，DNS伺服器NS記錄位址一般以以下的形式出現： ns1.domain.com、ns2.domain.com等。 簡單的說，NS記錄是指定由哪個DNS伺服器解析你的域名。|
 |PTR|pointers for reverse DNS lookups|rDNS 的最初用途：通過諸如traceroute、ping和SMTP電子郵件的“已接收：”跟踪標頭字段、跟踪用戶的網站（尤其是在Internet 論壇上）等工具進行網絡故障排除。|
-|NAPTR記錄||RFC 3403定義，它提供了正規表示式方式去對映一個域名。NAPTR記錄非常著名的一個應用是用於ENUM查詢。|
+|NAPTR記錄|記錄的一個常見用途是在會話啟動協議中，它用於通過 IP 網絡路由電話會話。|RFC 3403定義，它提供了正規表示式方式去對映一個域名。NAPTR記錄非常著名的一個應用是用於ENUM查詢。|
 
